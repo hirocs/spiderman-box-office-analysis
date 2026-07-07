@@ -1,56 +1,36 @@
-# Spider-Man Box Office Analysis 🕷️
-
-## Overview
-
-This project analyzes box office data from Spider-Man movies using Python and Pandas.
-
-The goal is to explore trends in movie budgets, opening weekend performance, and worldwide box office revenue, and to build a foundation for future prediction projects.
-
-## Objectives
-
-- Analyze Spider-Man movie box office performance
-- Practice data analysis using Pandas
-- Calculate basic statistics
-- Visualize movie revenue trends
-- Prepare for future machine learning prediction
-
 ## Dataset
 
-The dataset contains information about Spider-Man movies, including:
+The dataset contains information about major Spider-Man movies, including:
 
 - Movie title
 - Release year
+- Main character (Peter Parker / Miles Morales)
 - Production budget
 - Opening weekend revenue
 - Worldwide box office revenue
+- IMDb rating
+- Rotten Tomatoes score
+- Runtime
 
-## Technologies Used
-
-- Python
-- Pandas
-- CSV
-- Git & GitHub
+The dataset is used to explore trends in Spider-Man movie performance and prepare for future prediction projects.
 
 ## Analysis
 
 Current analysis includes:
 
-- Average movie budget
-- Highest worldwide gross
-- Lowest and highest performing movies
-- Basic statistical summaries
-
-## Example Output
-Highest Grossing Movie:
-Spider-Man 3 earned $894 million worldwide.
-
+- Comparing box office performance between movies
+- Calculating average budget and revenue
+- Finding the highest and lowest performing movies
+- Exploring the relationship between budget and worldwide revenue
+- Comparing Peter Parker and Miles Morales movies
+- Analyzing ratings and movie performance
 
 ## Future Improvements
 
-- Add all Spider-Man movies
-- Add data visualization with Matplotlib
-- Compare audience ratings
-- Build a simple machine learning prediction model
+- Add more detailed movie information
+- Create data visualizations using Matplotlib
+- Analyze relationships between ratings, budget, and revenue
+- Build a machine learning model to predict box office performance
 - Estimate the performance of upcoming Spider-Man movies
 
 ## Author
