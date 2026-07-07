@@ -12,7 +12,14 @@ The dataset contains information about major Spider-Man movies, including:
 - Rotten Tomatoes score
 - Runtime
 
-The dataset is used to explore trends in Spider-Man movie performance and prepare for future prediction projects.
+The dataset is used to explore trends in Spider-Man movie performance and prepare for future data analysis and machine learning projects.
+
+## Technologies Used
+
+- Python
+- Pandas
+- CSV
+- Git & GitHub
 
 ## Analysis
 
@@ -20,16 +27,16 @@ Current analysis includes:
 
 - Comparing box office performance between movies
 - Calculating average budget and revenue
-- Finding the highest and lowest performing movies
+- Identifying the highest and lowest performing movies
 - Exploring the relationship between budget and worldwide revenue
 - Comparing Peter Parker and Miles Morales movies
-- Analyzing ratings and movie performance
+- Analyzing the relationship between ratings and box office performance
 
 ## Future Improvements
 
 - Add more detailed movie information
 - Create data visualizations using Matplotlib
-- Analyze relationships between ratings, budget, and revenue
+- Perform deeper statistical analysis
 - Build a machine learning model to predict box office performance
 - Estimate the performance of upcoming Spider-Man movies
 
