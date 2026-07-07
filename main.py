@@ -1,6 +1,7 @@
 print("Spider-Man Box Office Analysis")
 
 import pandas as pd
+import matplotlib.pyplot as plt
 
 df = pd.read_csv("spiderman_movies.csv")
 
@@ -73,3 +74,21 @@ print(
     f"{most_profitable['Movie']} generated the highest profit "
     f"with ${most_profitable['Profit']} million."
 )
+
+print("\n========== CREATING CHART ==========\n")
+
+plt.figure(figsize=(10,5))
+
+plt.bar(df["Movie"], df["Worldwide"])
+
+plt.title("Spider-Man Movies Worldwide Box Office")
+plt.xlabel("Movie")
+plt.ylabel("Worldwide Revenue (Million USD)")
+
+plt.xticks(rotation=45, ha="right")
+
+plt.tight_layout()
+
+plt.savefig("worldwide_box_office.png")
+
+plt.show()
