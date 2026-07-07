@@ -77,15 +77,15 @@ print(
 
 print("\n========== CREATING CHART ==========\n")
 
-plt.figure(figsize=(10,5))
+df_sorted = df.sort_values(by="Worldwide")
 
-plt.bar(df["Movie"], df["Worldwide"])
+plt.figure(figsize=(14, 7))
 
-plt.title("Spider-Man Movies Worldwide Box Office")
-plt.xlabel("Movie")
-plt.ylabel("Worldwide Revenue (Million USD)")
+plt.barh(df_sorted["Movie"], df_sorted["Worldwide"])
 
-plt.xticks(rotation=45, ha="right")
+plt.title("Worldwide Box Office Revenue of Spider-Man Movies")
+plt.xlabel("Worldwide Revenue (Million USD)")
+plt.ylabel("Movie")
 
 plt.tight_layout()
 
