@@ -92,3 +92,20 @@ plt.tight_layout()
 plt.savefig("worldwide_box_office.png")
 
 plt.show()
+
+print("\n========== BUDGET VS WORLDWIDE REVENUE ==========\n")
+
+plt.figure(figsize=(10, 6))
+
+plt.scatter(df["Budget"], df["Worldwide"])
+
+plt.title("Budget vs Worldwide Revenue")
+plt.xlabel("Budget (Million USD)")
+plt.ylabel("Worldwide Revenue (Million USD)")
+
+plt.tight_layout()
+
+plt.savefig("budget_vs_worldwide.png")
+
+plt.show()
+
