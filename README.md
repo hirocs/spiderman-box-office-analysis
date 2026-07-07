@@ -32,6 +32,10 @@ Current analysis includes:
 - Comparing Peter Parker and Miles Morales movies
 - Analyzing the relationship between ratings and box office performance
 
+### Findings
+
+The scatter plot suggests that a larger production budget does not necessarily result in higher worldwide box office revenue. While some high-budget films performed well, others earned less than movies with more moderate budgets. This indicates that additional factors, such as audience reception, franchise popularity, and release timing, likely contribute to a movie's financial success.
+
 ## Future Improvements
 
 - Add more detailed movie information
