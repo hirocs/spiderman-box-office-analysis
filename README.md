@@ -44,6 +44,21 @@ The scatter plot suggests that a larger production budget does not necessarily r
 - Build a machine learning model to predict box office performance
 - Estimate the performance of upcoming Spider-Man movies
 
+## Installation
+
+Clone this repository:
+
+```bash
+git clone https://github.com/hirocs/spiderman-box-office-analysis.git
+cd spiderman-box-office-analysis
+```
+
+Install the required packages:
+
+```bash
+pip install -r requirements.txt
+```
+
 ## Author
 
 Hirosato Ikehara
