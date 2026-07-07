@@ -1,11 +1,11 @@
-Movie,Year,Budget,OpeningWeekend,Worldwide
-Spider-Man,2002,139,114.8,825
-Spider-Man 2,2004,200,88.2,789
-Spider-Man 3,2007,258,151.1,895
-The Amazing Spider-Man,2012,230,137.0,758
-The Amazing Spider-Man 2,2014,255,91.6,709
-Spider-Man: Homecoming,2017,175,117.0,880
-Spider-Man: Into the Spider-Verse,2018,90,35.4,384
-Spider-Man: Far From Home,2019,160,92.6,1132
-Spider-Man: No Way Home,2021,200,260.1,1921
-Spider-Man: Across the Spider-Verse,2023,100,120.7,690
+Movie,Year,Character,Budget,OpeningWeekend,Worldwide,IMDb,RottenTomatoes,Runtime
+Spider-Man,2002,Peter Parker,139,114.8,825,7.4,90,121
+Spider-Man 2,2004,Peter Parker,200,88.2,789,7.5,93,127
+Spider-Man 3,2007,Peter Parker,258,151.1,895,6.3,63,139
+The Amazing Spider-Man,2012,Peter Parker,230,137.0,758,6.9,71,136
+The Amazing Spider-Man 2,2014,Peter Parker,255,91.6,709,6.6,51,142
+Spider-Man: Homecoming,2017,Peter Parker,175,117.0,880,7.4,92,133
+Spider-Man: Into the Spider-Verse,2018,Miles Morales,90,35.4,384,8.4,97,117
+Spider-Man: Far From Home,2019,Peter Parker,160,92.6,1132,7.4,91,129
+Spider-Man: No Way Home,2021,Peter Parker,200,260.1,1921,8.2,93,148
+Spider-Man: Across the Spider-Verse,2023,Miles Morales,100,120.7,690,8.6,95,140
