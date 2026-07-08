@@ -2,6 +2,8 @@ print("Spider-Man Machine Learning Project")
 
 import pandas as pd
 
+from sklearn.model_selection import train_test_split
+
 
 def load_data():
     return pd.read_csv("spiderman_movies.csv")
@@ -35,8 +37,18 @@ def main():
     print(f"Features (X): {X.shape}")
     print(f"Target (y): {y.shape}")
 
+    # Split the dataset
+    X_train, X_test, y_train, y_test = train_test_split(
+        X,
+        y,
+        test_size=0.2,
+        random_state=42
+    )
+
+    print("\n========== TRAIN / TEST SPLIT ==========\n")
+
+    print(f"Training samples: {len(X_train)}")
+    print(f"Testing samples: {len(X_test)}")
     
-
-
 if __name__ == "__main__":
     main()
