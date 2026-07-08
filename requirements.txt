@@ -1,3 +1,2 @@
-pandas
-matplotlib
-scikit-learn
+pandas>=2.0.0
+matplotlib>=3.7.0
